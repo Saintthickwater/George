@@ -1,0 +1,232 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 3fr 20fr;
+  grid-template-columns: 2fr 7fr 2fr;
+  grid-row-gap: 200px;
+}
+
+@media screen and (min-width: 1850px){
+  .header {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 250px;
+    background: linear-gradient(to top, #414141, black);
+  }
+  h1 {
+    display: block;
+    font-family: 'Russo One';
+    font-size: 185px;
+    background: url("paint.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: black 10px 10px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1850px){
+  .header {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 250px;
+    background: linear-gradient(to top, #414141, black);
+  }
+  h1 {
+    display: block;
+    font-family: 'Russo One';
+    font-size: 150px;
+    background: url("paint.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: black 10px 10px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.iconDiv {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%;
+  width: 95%;
+  position: relative;
+  left: 2.5%;
+  bottom: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.iconDiv > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.iconDiv > div {
+  box-shadow: black -6px -6px 10px;
+  float: top;
+}
+
+@media screen and (max-width: 1500px){
+  .header {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 250px;
+    background: linear-gradient(to top, #414141, black);
+  }
+   h1 {
+    display: block;
+    font-family: 'Russo One';
+    font-size: 120px;
+    background: url("paint.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: black 10px 10px;
+    text-align: center;
+    margin: 0;
+  }
+  .iconDiv {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    bottom: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .iconDiv > div {
+    box-shadow: black -6px -6px 10px;
+   }
+}
+
+p {
+  font-family: 'Russo One';
+  background: url("paint.jpg");
+  font-size: 20px;
+  position: relative;
+  bottom: 30%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: black 2px 2px;
+  text-align: justify;
+}
+
+.iconDiv > div:hover {
+  width: 150%;
+  height: 150%;
+  position: relative;
+  right: 25%;
+  bottom: 25%;
+  box-shadow: none;
+  border: black solid 5px;
+}
+
+.JuliaPodgurskaya {
+  background-image: url("JuliaPodgurskaya.jpg");
+  background-size: cover;
+}
+.KsushaZaretskaya {
+  background-image: url("KsushaZaretskaya.jpg");
+  background-size: cover;
+}
+.VeronikaSmolich {
+  background-image: url("VeronikaSmolich.jpg");
+  background-size: cover;
+}
+.AnyaIvanova {
+  background-image: url("AnyaIvanova.jpg");
+  background-size: cover;
+}
+.DashaGaidukevich {
+  background-image: url("DashaGaidukevich.jpg");
+  background-size: cover;
+}
+.DianaJeleznyakova {
+  background-image: url("DianaJeleznyakova.jpg");
+  background-size: cover;
+}
+.LizaBraimova {
+  background-image: url("LizaBraimova.jpg");
+  background-size: cover;
+}
+.KarolinaVashkelevich {
+  background-image: url("KarolinaVashkelevich.jpg");
+  background-size: cover;
+}
+.JuliaBuhovets {
+  background-image: url("JuliaBuhovets.jpg");
+  background-size: cover;
+}
+.Hvorik {
+  background-image: url("Hvorik.jpg");
+  background-size: cover;
+}
+.JuliaTokmackova {
+  background-image: url("JuliaTokmackova.jpg");
+  background-size: cover;
+}
+.SonyaTimonina {
+  background-image: url("SonyaTsimonina.jpg");
+  background-size: cover;
+}
+.NastyaSvetlyack {
+  background-image: url("NastyaSvetlyack.jpg");
+  background-size: cover;
+}
+.MashaTurunovskaya {
+  background-image: url("MashaTurunovskaya.jpg");
+  background-size: cover;
+}
+.VikaSoroka {
+  background-image: url("VikaSoroka.jpg");
+  background-size: cover;
+}
+.YanaShilo {
+  background-image: url("YanaShilo.jpg");
+  background-size: cover;
+}
+.Petruha {
+  background-image: url("Petruha.jpg");
+  background-size: cover;
+}
+.Jorek {
+  background-image: url("Jorek.jpg");
+  background-size: cover;
+}
+.KarinaDenisovets {
+  background-image: url("KarinaDenisovets.jpg");
+  background-size: cover;
+}
+.UlianaVoilokova {
+  background-image: url("UlianaVoilokova.jpg");
+  background-size: cover;
+}
+.NastyaSmoschik {
+  background-image: url("NastyaSvetlyack.jpg");
+  background-size: cover;
+}
+
